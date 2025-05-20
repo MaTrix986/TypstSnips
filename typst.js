@@ -127,7 +127,7 @@
     {trigger: "lim", replacement: "lim_(${1:n} -> oo) $0", options: "imA", description: "limit"},
     {trigger: "lsup", replacement: "limsup_(${1:n} -> oo) $0", options: "imA", description: "limsup"},
     {trigger: "linf", replacement: "liminf_(${1:n} -> oo) $0", options: "imA", description: "liminf"},
-    {trigger: /d([A-Za-z])( )/, replacement: "dif [[0]][[1]]", options: "imA", description: "Auto dif"},
+    //{trigger: /d([A-Za-z])( )/, replacement: "dif [[0]][[1]]", options: "imA", description: "Auto dif"},
     {trigger: /d(${GREEK})( |\\)/, replacement: "dif [[0]][[1]]", options: "imA", description: "Auto dif"},
     {trigger: "der", replacement: "(dif ${1:y})/(dif ${3:x})", options: "imA", description: "derive"},
     {trigger: "dder", replacement: "(dif^2 ${1:y})/(dif ${3:x}^2)", options: "imA", description: "derive"},

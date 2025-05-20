@@ -16,4 +16,5 @@ use command `HyperSnips: Open Snnipets Directory`, copy `typst.hsnips`  in. Then
 2. Or turn on `Load from file`, and copy `typst.js` into directory of your vault.
 
 # Attention
-Transplantation may be incomplete. The part about VISUAL is not available in [HyperSnips for Math](https://marketplace.visualstudio.com/items?itemName=OrangeX4.hsnips) yet, and the snnipets behaviour under the two plugins is not always the same.
+
+Transplantation may be incomplete. The snnipets behaviour under the two plugins is not always the same.
