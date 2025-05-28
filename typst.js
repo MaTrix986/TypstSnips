@@ -9,9 +9,9 @@
     {trigger: "S", replacement: "sqrt( ${VISUAL} )", options: "mA"},
     
     // Math mode
-    {trigger: "mk", replacement: "$$0$", options: "twA", description: "Inline Math"},
+    {trigger: "mk", replacement: "$$0$", options: "tA", description: "Inline Math"},
     {trigger: /(\$[" "])(\.|\,|\?|\-)/, replacement: "$[[1]] $0", options: "iwA", description: "Auto formatting after Inline Math"},
-    {trigger: "dm", replacement: "$$\n$0\n$$$1",	options: "tAw", description: "Display Math"},
+    {trigger: "dm", replacement: "$$\n$0\n$$$1",	options: "tA", description: "Display Math"},
     
     // Greek letters
     {trigger: ";a", replacement: "alpha", options: "mA"},
@@ -34,6 +34,8 @@
     {trigger: ";k", replacement: "kappa", options: "mA"},
     {trigger: ";l", replacement: "lambda", options: "mA"},
     {trigger: ";L", replacement: "Lambda", options: "mA"},
+    {trigger: ";r", replacement: "rho", options: "mA"},
+    {trigger: ";R", replacement: "Rho", options: "mA"},
     {trigger: ";s", replacement: "sigma", options: "mA"},
     {trigger: ";S", replacement: "Sigma", options: "mA"},
     {trigger: ";;t", replacement: "tau", options: "mA"},
