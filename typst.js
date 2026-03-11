@@ -133,8 +133,9 @@
     {trigger: /d(${GREEK})( |\\)/, replacement: "dif [[0]][[1]]", options: "imA", description: "Auto dif"},
     {trigger: "der", replacement: "(dif ${1:y})/(dif ${3:x})", options: "imA", description: "derive"},
     {trigger: "dder", replacement: "(dif^2 ${1:y})/(dif ${3:x}^2)", options: "imA", description: "derive"},
-    {trigger: "par", replacement: "(diff ${1:y})/(diff ${3:x})", options: "imA", description: "partial"},
-    {trigger: "ppar", replacement: "(diff^2 ${1:y})/(diff ${3:x}^2)", options: "imA", description: "partial"},
+    {trigger: "par", replacement: "(partial ${1:y})/(partial ${3:x})", options: "imA", description: "partial"},
+    {trigger: "diff", replacement: "partial", options: "imA", description: "partial"},
+    {trigger: "ppar", replacement: "(partial^2 ${1:y})/(partial ${3:x}^2)", options: "imA", description: "partial"},
     {trigger: "int", replacement: "integral", options: "imA", description: "integral"},
 
     // Align & Space

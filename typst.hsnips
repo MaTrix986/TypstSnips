@@ -146,9 +146,13 @@ endsnippet
 #Need disable "editor.autoClosingBrackets" and "editor.autoClosingQuotes" in setting for typst files
 #The additional regex (.?) solve the issues https://github.com/draivin/hsnips/issues/94
 
-snippet pp "parenthesis" iAm
-($1)$0
+snippet ,, "\," iAm
+\,
 endsnippet
+
+#snippet pp "parenthesis" iAm
+#($1)$0
+#endsnippet
 
 snippet `(.?)(\()` "()" iA
 ``rv = m[1]``($1)$0
@@ -275,9 +279,9 @@ rv = m[1] + m[2]+ map[m[3]] + " "
 endsnippet
 
 #--------------------set symbol
-snippet set "set" iAm
-{$1}
-endsnippet
+#snippet set "set" iAm
+#{$1}
+#endsnippet
 
 snippet cc "subset" Am
 subset $0
@@ -350,16 +354,25 @@ snippet `(d)(mu|alpha|sigma|rho|beta|gamma|delta|zeta|eta|varepsilon|epsilon|the
 dif ``rv = m[2] + m[3]``
 endsnippet
 
-snippet der "derive" iAm
-(dif ${1:y})/(dif ${3:x})
-endsnippet
-
 snippet dder "derive" iAm
 (dif^2 ${1:y})/(dif ${3:x}^2)
 endsnippet
 
+snippet der "derive" iAm
+(dif ${1:y})/(dif ${3:x})
+endsnippet
+
+snippet ppar "partial" iAm
+(partial^2 ${1:y})/(partial ${3:x}^2)
+endsnippet
+
 snippet par "partial" iAm
-(diff ${1:y})/(diff ${3:x})
+(partial ${1:y})/(partial ${3:x})
+endsnippet
+
+
+snippet diff "partial" iAm
+partial
 endsnippet
 
 snippet int "integral" iAm
@@ -391,7 +404,7 @@ snippet `([^\,\s])( |)(\.\.\.)` "Auto dots.c" iAm
 ``rv = m[1]`` dots.c $0
 endsnippet
 
-
-
-
+snippet meao "outer measure" iAm
+m_* ($1)$0
+endsnippet
 
