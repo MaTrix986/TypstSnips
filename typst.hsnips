@@ -267,9 +267,9 @@ snippet iff "<=>" wAmm
 <=> $0
 endsnippet
 
-snippet `(^|\s\s+)(=>|<=>)` "Auto align for arrow" bAm
-``rv = m[1] + m[2]+ "&&"`` ${0}
-endsnippet
+# snippet `(^|\s\s+)(=>|<=>)` "Auto align for arrow" bAm
+# ``rv = m[1] + m[2]+ "&&"`` ${0}
+# endsnippet
 
 snippet `(^|\s\s+)(=>|<=>)(&|&&)(  )` "Change align for arrow" bAm
 ``
@@ -398,6 +398,10 @@ endsnippet
 #--------------------others
 snippet ...c "dots.c" iAm
 dots.c
+endsnippet
+
+snippet dott "dot.double" iAm
+dot.double
 endsnippet
 
 snippet `([^\,\s])( |)(\.\.\.)` "Auto dots.c" iAm
