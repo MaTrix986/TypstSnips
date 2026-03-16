@@ -247,7 +247,7 @@ rv = (map[m[2]] || m[2]) + "(" + m[1] + ")"
 ``
 endsnippet
 
-snippet `(mu|alpha|sigma|rho|beta|gamma|delta|zeta|eta|varepsilon|epsilon|theta|iota|kappa|vartheta|lambda|nu|pi|rho|tau|upsilon|phi|chi|psi|omega|Gamma|Delta|Theta|Lambda|Xi|Pi|Sigma|Upsilon|Phi|Psi|Omega)(grave|acute|hat|tilde|macron|breve|dot|diaer|circle|caron|vec|upright|italic|bo|sans|frak|mono|cal|ov)` "hat" iAm
+snippet `(xi|mu|alpha|sigma|rho|beta|gamma|delta|zeta|eta|varepsilon|epsilon|theta|iota|kappa|vartheta|lambda|nu|pi|rho|tau|upsilon|phi|chi|psi|omega|Gamma|Delta|Theta|Lambda|Xi|Pi|Sigma|Upsilon|Phi|Psi|Omega)(grave|acute|hat|tilde|macron|breve|dot|diaer|circle|caron|vec|upright|italic|bo|sans|frak|mono|cal|ov)` "hat" iAm
 ``
 const map = {"vec": "arrow", "bo": "bold", "ov": "overline" }
 rv = (map[m[2]] || m[2]) + "(" + m[1] + ")"
