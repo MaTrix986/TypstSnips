@@ -180,8 +180,8 @@ snippet `(.?)(\")` "quote" iA
 ``rv = m[1] + "\""``$1``rv = "\""``
 endsnippet
 
-snippet <> "angle.l $1 angle.r $0" iAm
-angle.l $1 angle.r $0
+snippet <> "chevron.l $1 chevron.r $0" iAm
+chevron.l $1 chevron.r $0
 endsnippet
 
 snippet abs "abs" iAm
@@ -302,6 +302,12 @@ endsnippet
 snippet notin "in.not" iAm
 in.not
 endsnippet
+
+
+snippet sect "replace sect with inter" iAm
+inter
+endsnippet
+
 
 #--------------------relation symbol
 snippet == "=&" iAm
