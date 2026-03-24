@@ -310,6 +310,15 @@ endsnippet
 
 
 #--------------------relation symbol
+snippet ~= "tilde.equiv" iAm
+tilde.equiv
+endsnippet
+
+snippet =trp "eq.triple" iAm
+eq.triple $0
+endsnippet
+
+
 snippet == "=&" iAm
 =& $0
 endsnippet
