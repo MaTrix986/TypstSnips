@@ -287,16 +287,20 @@ snippet cc "subset" Am
 subset $0
 endsnippet
 
-snippet `(\\)(u)` "subset" iAm
+snippet `(\\)(u)` "Union" iAm
 union.big
 endsnippet
 
-snippet `(\\)(n)` "subset" iAm
-sect.big
+snippet `(\\)(n)` "Inter" iAm
+inter.big
 endsnippet
 
 snippet `(subset|supset)(=| =)` "csubset" iAm
 ``rv = m[1]``.eq $0
+endsnippet
+
+snippet `(subset|supset)(!=| !=)` "subset!=" iAm
+``rv = m[1]``.neq $0
 endsnippet
 
 snippet notin "in.not" iAm
