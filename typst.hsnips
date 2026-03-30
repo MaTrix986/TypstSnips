@@ -278,6 +278,10 @@ rv = m[1] + m[2]+ map[m[3]] + " "
 ``
 endsnippet
 
+snippet -> "arrow" iAm
+arrow
+endsnippet
+
 #--------------------set symbol
 #snippet set "set" iAm
 #{$1}
