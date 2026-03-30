@@ -312,6 +312,10 @@ snippet sect "replace sect with inter" iAm
 inter
 endsnippet
 
+snippet uni "union" iAm
+union
+endsnippet
+
 
 #--------------------relation symbol
 snippet ~= "tilde.equiv" iAm
